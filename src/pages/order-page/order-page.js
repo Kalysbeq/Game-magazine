@@ -18,7 +18,7 @@ export const OrderPage = () => {
             </div>
             <div className="order-page__right">
                 <div className="order-page__total-price">
-                    <span>{ items.length } { enumerate(items.length, ['товар', 'товара', 'товаров'])} на сумму {calcTotalPrice(items)} руб.</span>
+                    <span>{ items.length } { enumerate(items.length, ['товар', 'товара', 'товаров'])} на сумму {calcTotalPrice(items)} сом.</span>
                 </div>
             </div>
         </div>
